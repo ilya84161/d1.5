@@ -1,0 +1,9 @@
+{% extends 'flatpages/default.html' %}
+{% block title %}
+{{flatpage.title}} курсив
+{% endblock title %}
+{% block content %}
+<h1>контент отображается курсивом</h1>
+<hr>
+<i>{{flatpage.content}}</i>
+{% endblock content %}
